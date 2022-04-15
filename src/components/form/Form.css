@@ -1,0 +1,23 @@
+.App__add-form--wrapper {
+  margin: 50px 0 15px;
+}
+.App__add-user-form {
+  display: flex;
+  flex-direction: column;
+}
+.App__add-form-btns {
+  display: flex;
+  justify-content: center;
+}
+.App__add-form--btn-submit,
+.App__add-form--btn-cancel {
+  margin: 10px 15px;
+}
+input[type="text"]:not(.browser-default):focus:not([readonly]) {
+  border-bottom: 1px solid #5e5e5ed8;
+  -webkit-box-shadow: 0 1px 0 0 #5e5e5ed8;
+  box-shadow: 0 1px 0 0 #5e5e5ed8;
+}
+input[type=text]:not(.browser-default) {
+  border-bottom: 1px solid rgba(0,0,0,0.12);;
+}
