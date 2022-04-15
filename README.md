@@ -1,4 +1,4 @@
-Simple Todo-list application with react-redux
+Simple Phone-book application with redux-thunk
 
 # Getting Started
 
